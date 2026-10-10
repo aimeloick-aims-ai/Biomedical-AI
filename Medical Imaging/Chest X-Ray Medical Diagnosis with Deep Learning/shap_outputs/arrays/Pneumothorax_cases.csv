@@ -1,0 +1,5 @@
+Case,Image,Probability,Model_Logit
+TP_high_confidence,00018921_023.png,0.4509912,-0.19666669
+FP_high_confidence,00018249_013.png,0.7089674,0.8903742
+FN_high_probability,00021782_026.png,0.13638933,-1.8456085
+TN_low_probability,00020068_000.png,0.00042292452,-7.767894

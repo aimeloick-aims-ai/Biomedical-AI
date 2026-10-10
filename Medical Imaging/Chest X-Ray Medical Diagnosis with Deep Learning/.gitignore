@@ -1,0 +1,25 @@
+# Local datasets and trained model weights
+Data/
+data/
+single_target_checkpoints/
+*.pth
+*.pt
+*.ckpt
+
+# Python and notebook caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.notebook/
+.venv/
+venv/
+
+# Local credentials and configuration
+.env
+.env.*
+!.env.example
+.aws/
+
+# Operating system files
+.DS_Store
+Thumbs.db
