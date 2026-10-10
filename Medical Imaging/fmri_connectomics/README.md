@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="complete_assets/connectomics_abide_banner.png" alt="fMRI connectomics and ABIDE GNN notebook outputs" width="100%" />
+  <img src="assets/connectomics_abide_banner.png" alt="fMRI connectomics and ABIDE GNN notebook outputs" width="100%" />
 </p>
 
 # fMRI Connectomics: from regional BOLD signals to predictive networks and graph neural networks
