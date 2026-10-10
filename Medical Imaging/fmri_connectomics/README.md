@@ -268,7 +268,7 @@ The downloaded cohort contains:
 The notebook encodes `0 = ASD` and `1 = Control`. The first subject has 196 time points across **116 AAL regions**.
 
 <p align="center">
-  <img src="complete_assets/abide_cohort_distribution.png" alt="ABIDE diagnosis distribution and diagnosis by sex" width="88%" />
+  <img src="assets/abide_cohort_distribution.png" alt="ABIDE diagnosis distribution and diagnosis by sex" width="88%" />
 </p>
 
 The split is stratified jointly by diagnosis and sex:
@@ -292,13 +292,13 @@ The test set is held out first, and the same subject indices are reused by the S
 Partial correlation is used here to describe the association between two regional signals after accounting for the remaining regions.
 
 <p align="center">
-  <img src="complete_assets/abide_subject_partial_connectivity.png" alt="Partial-correlation matrices for one ASD and one control subject" width="92%" />
+  <img src="assets/abide_subject_partial_connectivity.png" alt="Partial-correlation matrices for one ASD and one control subject" width="92%" />
 </p>
 
 A group-level descriptive comparison averages matrices separately for ASD and control participants and computes `Control − ASD`.
 
 <p align="center">
-  <img src="complete_assets/abide_group_connectivity_comparison.png" alt="Mean ASD connectivity, mean control connectivity, and control-minus-ASD difference" width="100%" />
+  <img src="assets/abide_group_connectivity_comparison.png" alt="Mean ASD connectivity, mean control connectivity, and control-minus-ASD difference" width="100%" />
 </p>
 
 The notebook reports:
@@ -328,7 +328,7 @@ The resulting tabular matrix has shape **500 × 6,670**. A `StandardScaler` and 
 The notebook also reports F1 = 0.6400 on validation and 0.7353 on test. Because label `1` is **Control**, scikit-learn's default binary F1 here is the **control-class F1**, not the ASD-class F1.
 
 <p align="center">
-  <img src="complete_assets/abide_svm_test_confusion_matrix.png" alt="SVM confusion matrix on the held-out ABIDE test set" width="46%" />
+  <img src="assets/abide_svm_test_confusion_matrix.png" alt="SVM confusion matrix on the held-out ABIDE test set" width="46%" />
 </p>
 
 The held-out ROC-AUC is clearly better than chance in this particular split, but the gap between validation and test performance is a reminder that a single split can be variable, especially in a heterogeneous multi-site dataset.
@@ -396,7 +396,7 @@ Linear(8 → 2)
 The model contains only **698 trainable parameters**. Edge weights are supplied to the attention layers as one-dimensional edge attributes. Training uses Adam (`lr=1e-3`, `weight_decay=1e-3`) and cross-entropy loss for 100 epochs; the checkpoint with the lowest validation loss is retained.
 
 <p align="center">
-  <img src="complete_assets/abide_gat_training_curves.png" alt="GAT training and validation loss and accuracy across 100 epochs" width="88%" />
+  <img src="assets/abide_gat_training_curves.png" alt="GAT training and validation loss and accuracy across 100 epochs" width="88%" />
 </p>
 
 The best validation loss is **0.6940**. The trajectories remain close to chance-level behaviour rather than showing successful separation of the classes.
@@ -420,7 +420,7 @@ The apparently moderate F1 is misleading if read as ASD performance: because `1 
 - Control F1: **0.68**
 
 <p align="center">
-  <img src="complete_assets/abide_gat_test_confusion_matrix.png" alt="GAT confusion matrix on the held-out ABIDE test set" width="46%" />
+  <img src="assets/abide_gat_test_confusion_matrix.png" alt="GAT confusion matrix on the held-out ABIDE test set" width="46%" />
 </p>
 
 This is a useful negative result. Representing a connectome as a graph and adding attention does not automatically create a stronger classifier. The model, graph construction, threshold, node features, training objective, cohort heterogeneity, and validation design all matter.
