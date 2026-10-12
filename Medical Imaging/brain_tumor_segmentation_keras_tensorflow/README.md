@@ -1,8 +1,3 @@
----
-noteId: "aea6d7b0c62711f197aa13758411d645"
-tags: []
-
----
 
 <div align="center">
 
