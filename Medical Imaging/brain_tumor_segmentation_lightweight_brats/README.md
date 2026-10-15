@@ -1,8 +1,4 @@
----
-noteId: "480dbfb0c89c11f18c8a5f962f1af6f5"
-tags: []
 
----
 
 # Brain Tumor Segmentation with a Lightweight 3D U-Net
 
