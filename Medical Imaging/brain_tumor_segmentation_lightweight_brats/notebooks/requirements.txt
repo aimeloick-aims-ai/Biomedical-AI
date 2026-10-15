@@ -1,0 +1,10 @@
+numpy
+pandas
+matplotlib
+scipy
+nibabel
+scikit-learn
+split-folders
+gdown
+torch
+jupyterlab

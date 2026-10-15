@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="370" viewBox="0 0 1280 370" role="img" aria-labelledby="title description">
+  <title id="title">BraTS-Africa: from MRI preparation to model analysis</title>
+  <desc id="description">Four notebooks cover MRI preparation, PyTorch training, explanation of a saved checkpoint, and a separate experiment comparing smaller architectures. The architecture experiment trains new models.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#64748b"/></marker>
+  </defs>
+  <rect width="1280" height="370" rx="20" fill="#f8fafc"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="40" y="49" font-size="26" font-weight="700" fill="#0f172a">Brain tumor segmentation: my learning workflow</text>
+    <text x="40" y="78" font-size="16" fill="#475569">BraTS-Africa MRI · 3D U-Net · PyTorch · CPU experiments</text>
+    <g fill="white" stroke="#cbd5e1" stroke-width="1.5">
+      <rect x="40" y="112" width="275" height="150" rx="12"/>
+      <rect x="350" y="112" width="275" height="150" rx="12"/>
+      <rect x="660" y="112" width="275" height="150" rx="12"/>
+      <rect x="970" y="112" width="270" height="150" rx="12"/>
+    </g>
+    <g stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"><path d="M 319 187 H 342"/><path d="M 629 187 H 652"/></g>
+    <g font-size="14" fill="#2563eb" font-weight="700">
+      <text x="60" y="140">01 · PREPARE</text><text x="370" y="140">02 · TRAIN</text>
+      <text x="680" y="140">03 · EXPLAIN</text><text x="990" y="140">04 · COMPARE</text>
+    </g>
+    <g font-size="21" fill="#0f172a" font-weight="700">
+      <text x="60" y="175">Understand the data</text><text x="370" y="175">Fit the baseline</text>
+      <text x="680" y="175">Inspect its decisions</text><text x="990" y="175">Try smaller networks</text>
+    </g>
+    <g font-size="16" fill="#475569">
+      <text x="60" y="207">Inspect, scale, stack, crop</text><text x="60" y="232">Split patients into three sets</text>
+      <text x="370" y="207">Train on 64³ patches</text><text x="370" y="232">Save the best validation loss</text>
+      <text x="680" y="207">Compare errors and reference</text><text x="680" y="232">Mask inputs; measure effects</text>
+      <text x="990" y="207">Train five variants separately</text><text x="990" y="232">Compare size, time, and Dice</text>
+    </g>
+    <text x="40" y="307" font-size="16" fill="#475569">01 → 02 → 03 follows the saved-model pipeline. Notebook 04 is a separate architecture experiment using the same data splits.</text>
+    <text x="40" y="336" font-size="15" fill="#475569">Educational results: explanation maps describe predictions, including segmentation errors.</text>
+  </g>
+</svg>

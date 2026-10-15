@@ -1,0 +1,31 @@
+# MRI data, arrays, models, and local run artifacts
+BraTs_Africa/
+BraTS-Africa/
+PKG-BraTS-Africa/
+glioma/
+glioma_split_data/
+glioma split data/
+saved_model/
+model_history/
+xai_results*/
+*.zip
+*.nii
+*.nii.gz
+*.npy
+*.npz
+*.pt
+*.pth
+*.keras
+*.h5
+
+# Environments and editor state
+.venv/
+venv/
+bt_venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.notebook/
+.vscode/
+.idea/
+.DS_Store

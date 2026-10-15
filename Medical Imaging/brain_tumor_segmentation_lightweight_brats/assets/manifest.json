@@ -1,0 +1,207 @@
+{
+  "origin": "Saved notebook outputs; no notebook execution or image synthesis",
+  "figures": [
+    {
+      "file": "data/mri_sequences.png",
+      "description": "Four MRI sequences, reference mask, and overlay",
+      "source_notebook": "notebooks/01_brats_africa_preparation.ipynb",
+      "source_notebook_sha256": "f0d6110bbb27851b1238ccd8dfe2dddcd8775ac37c50982ec5da776781fed4f7",
+      "cell_index_zero_based": 38,
+      "cell_id": "7d2b4cdc",
+      "image_index_in_cell": 0,
+      "execution_count": 48,
+      "sha256": "8da6ebd2265026a101629effa5f8578b7e1212d98db65f2daf62a8ebd1d61d45"
+    },
+    {
+      "file": "data/three_planes.png",
+      "description": "Reference annotation in three anatomical planes",
+      "source_notebook": "notebooks/01_brats_africa_preparation.ipynb",
+      "source_notebook_sha256": "f0d6110bbb27851b1238ccd8dfe2dddcd8775ac37c50982ec5da776781fed4f7",
+      "cell_index_zero_based": 41,
+      "cell_id": "4927ef56",
+      "image_index_in_cell": 0,
+      "execution_count": 49,
+      "sha256": "1dc255a601479866995544507cef2e8e4a16c4b93635ef178177e7139282ab76"
+    },
+    {
+      "file": "data/tumor_regions.png",
+      "description": "Each annotated tumor class shown separately",
+      "source_notebook": "notebooks/01_brats_africa_preparation.ipynb",
+      "source_notebook_sha256": "f0d6110bbb27851b1238ccd8dfe2dddcd8775ac37c50982ec5da776781fed4f7",
+      "cell_index_zero_based": 43,
+      "cell_id": "29951a47",
+      "image_index_in_cell": 0,
+      "execution_count": 50,
+      "sha256": "3c08a58b2bfc28fac44fbda9a5b74a3209c9e7f9a0930e09e28adada7091a247"
+    },
+    {
+      "file": "data/lesion_slices.png",
+      "description": "Several slices through the annotated lesion",
+      "source_notebook": "notebooks/01_brats_africa_preparation.ipynb",
+      "source_notebook_sha256": "f0d6110bbb27851b1238ccd8dfe2dddcd8775ac37c50982ec5da776781fed4f7",
+      "cell_index_zero_based": 45,
+      "cell_id": "824e1742",
+      "image_index_in_cell": 0,
+      "execution_count": 51,
+      "sha256": "96645f27725e0bfb8d70e410b8ba3fa81602386b57b42f54260011c233c0b09c"
+    },
+    {
+      "file": "data/preprocessed_case.png",
+      "description": "Example after intensity scaling and cropping",
+      "source_notebook": "notebooks/01_brats_africa_preparation.ipynb",
+      "source_notebook_sha256": "f0d6110bbb27851b1238ccd8dfe2dddcd8775ac37c50982ec5da776781fed4f7",
+      "cell_index_zero_based": 66,
+      "cell_id": "5f7c16ac",
+      "image_index_in_cell": 0,
+      "execution_count": 62,
+      "sha256": "0887e75cf258e6f841eca3a933a54ba8a1196277e4b1385b93d15355e8165fd6"
+    },
+    {
+      "file": "training/learning_curves.png",
+      "description": "Saved training and validation curves",
+      "source_notebook": "notebooks/02_unet3d_pytorch_brain_segmentation.ipynb",
+      "source_notebook_sha256": "09ee6ddab62cd54f16a59f35dcb0350fd44741f5a7de9ab29abd928f4b229180",
+      "cell_index_zero_based": 38,
+      "cell_id": "999f2fde",
+      "image_index_in_cell": 0,
+      "execution_count": 18,
+      "sha256": "0bd9e6757cd4c44b1f19ff887e4306b2968a57cd7ed8adc7d2bc2a67637f170b"
+    },
+    {
+      "file": "training/test_prediction.png",
+      "description": "Whole-volume inference displayed on a test slice",
+      "source_notebook": "notebooks/02_unet3d_pytorch_brain_segmentation.ipynb",
+      "source_notebook_sha256": "09ee6ddab62cd54f16a59f35dcb0350fd44741f5a7de9ab29abd928f4b229180",
+      "cell_index_zero_based": 45,
+      "cell_id": "89477256",
+      "image_index_in_cell": 0,
+      "execution_count": 23,
+      "sha256": "81613b4c4c6ac86b29f372d1f4fed1e4ba023e7579b1e067bf37abe33e4e9b36"
+    },
+    {
+      "file": "xai/reference_annotation.png",
+      "description": "MRI and reference tumor annotations",
+      "source_notebook": "notebooks/03_explain_unet_pytorch.ipynb",
+      "source_notebook_sha256": "3c3de721085a613a81aeef08cf3b7799537de5ce50458c7891897ea2e932e743",
+      "cell_index_zero_based": 9,
+      "cell_id": "guided-xai-09",
+      "image_index_in_cell": 0,
+      "execution_count": 28,
+      "sha256": "1aa743f7a51d0c0cb07b2788fbf8b022f3b0a56de4a6c9c51fa9b7689e9f291c"
+    },
+    {
+      "file": "xai/segmentation_errors.png",
+      "description": "Selected-class correct, missed, and extra regions",
+      "source_notebook": "notebooks/03_explain_unet_pytorch.ipynb",
+      "source_notebook_sha256": "3c3de721085a613a81aeef08cf3b7799537de5ce50458c7891897ea2e932e743",
+      "cell_index_zero_based": 11,
+      "cell_id": "guided-xai-11",
+      "image_index_in_cell": 0,
+      "execution_count": 29,
+      "sha256": "6edae4ae676ae9fe21d9e3d9e7570ac3704c36cf950bd983ab8a7d6930cd2c19"
+    },
+    {
+      "file": "xai/target_region.png",
+      "description": "Fixed output ROI and class probability",
+      "source_notebook": "notebooks/03_explain_unet_pytorch.ipynb",
+      "source_notebook_sha256": "3c3de721085a613a81aeef08cf3b7799537de5ce50458c7891897ea2e932e743",
+      "cell_index_zero_based": 13,
+      "cell_id": "guided-xai-13",
+      "image_index_in_cell": 0,
+      "execution_count": 30,
+      "sha256": "12bd8838c5861e114fef3a73d5531f3e6e4a96bd160f9e46dd4e2abc167ddc90"
+    },
+    {
+      "file": "xai/occlusion_example.png",
+      "description": "One 3D input block masked: before and after",
+      "source_notebook": "notebooks/03_explain_unet_pytorch.ipynb",
+      "source_notebook_sha256": "3c3de721085a613a81aeef08cf3b7799537de5ce50458c7891897ea2e932e743",
+      "cell_index_zero_based": 17,
+      "cell_id": "guided-xai-17",
+      "image_index_in_cell": 0,
+      "execution_count": 32,
+      "sha256": "645f50699e6b0bdce8551986230ca0f4b15eaeeac82b509812f5dc5a096a50bc"
+    },
+    {
+      "file": "xai/occlusion_map.png",
+      "description": "Spatial occlusion effects in percentage points",
+      "source_notebook": "notebooks/03_explain_unet_pytorch.ipynb",
+      "source_notebook_sha256": "3c3de721085a613a81aeef08cf3b7799537de5ce50458c7891897ea2e932e743",
+      "cell_index_zero_based": 19,
+      "cell_id": "guided-xai-19",
+      "image_index_in_cell": 0,
+      "execution_count": 33,
+      "sha256": "588b17b565649d82804599cc9dadf64a24b2f35613e385aebb9dd037c896f6b0"
+    },
+    {
+      "file": "xai/input_modalities.png",
+      "description": "Four input modalities for the XAI example",
+      "source_notebook": "notebooks/03_explain_unet_pytorch.ipynb",
+      "source_notebook_sha256": "3c3de721085a613a81aeef08cf3b7799537de5ce50458c7891897ea2e932e743",
+      "cell_index_zero_based": 21,
+      "cell_id": "guided-xai-21",
+      "image_index_in_cell": 0,
+      "execution_count": 34,
+      "sha256": "f1f03c6e2fbd091605d94e1d3f0b9fd5bd3527347c90d287a47dce887af1b937"
+    },
+    {
+      "file": "xai/modality_ablation.png",
+      "description": "Fixed-region score after removing a whole modality",
+      "source_notebook": "notebooks/03_explain_unet_pytorch.ipynb",
+      "source_notebook_sha256": "3c3de721085a613a81aeef08cf3b7799537de5ce50458c7891897ea2e932e743",
+      "cell_index_zero_based": 21,
+      "cell_id": "guided-xai-21",
+      "image_index_in_cell": 1,
+      "execution_count": 34,
+      "sha256": "84afc06a6b6f90c77c7f5f1135f504ae4c60eea101c308c01a005a6a4dde078a"
+    },
+    {
+      "file": "xai/gradient_sensitivity.png",
+      "description": "Gradient x input and SmoothGrad magnitude",
+      "source_notebook": "notebooks/03_explain_unet_pytorch.ipynb",
+      "source_notebook_sha256": "3c3de721085a613a81aeef08cf3b7799537de5ce50458c7891897ea2e932e743",
+      "cell_index_zero_based": 25,
+      "cell_id": "guided-xai-25",
+      "image_index_in_cell": 0,
+      "execution_count": 36,
+      "sha256": "47fe864114fc11a94f666e3fde34dfa567b1f1c744b5ee0ea6174d8a3cfd25dd"
+    },
+    {
+      "file": "xai/signed_gradients.png",
+      "description": "Signed gradient explanations per MRI modality",
+      "source_notebook": "notebooks/03_explain_unet_pytorch.ipynb",
+      "source_notebook_sha256": "3c3de721085a613a81aeef08cf3b7799537de5ce50458c7891897ea2e932e743",
+      "cell_index_zero_based": 25,
+      "cell_id": "guided-xai-25",
+      "image_index_in_cell": 1,
+      "execution_count": 36,
+      "sha256": "b9f869f9cc44f9a15487d720c018598814c80b5233d54774a0794d26b157e467"
+    },
+    {
+      "file": "architecture/parameter_counts.png",
+      "description": "Parameter counts for five U-Net variants",
+      "source_notebook": "notebooks/04_lightweight_architecture_personal.ipynb",
+      "source_notebook_sha256": "35be7c6b5ad164cf2fddce322804e3aa86e3e24ce38afa322b39410616b6a66e",
+      "cell_index_zero_based": 15,
+      "cell_id": "110eb605",
+      "image_index_in_cell": 0,
+      "execution_count": 29,
+      "sha256": "44dfc3a648c10a14fc8c61ea5017ef8a94c972ec7f4c5e570dadd66be6f6bada"
+    },
+    {
+      "file": "architecture/size_vs_dice.png",
+      "description": "Parameter count versus short-run validation Dice",
+      "source_notebook": "notebooks/04_lightweight_architecture_personal.ipynb",
+      "source_notebook_sha256": "35be7c6b5ad164cf2fddce322804e3aa86e3e24ce38afa322b39410616b6a66e",
+      "cell_index_zero_based": 28,
+      "cell_id": "d20b185f",
+      "image_index_in_cell": 0,
+      "execution_count": 36,
+      "sha256": "e13af21df612c094b25985f8a132991967f43b48a3a93ab495a24a5d20de50a7"
+    }
+  ],
+  "diagram": {
+    "file": "pipeline.svg",
+    "origin": "Hand-authored overview of the four local notebooks"
+  }
+}
